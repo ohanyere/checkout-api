@@ -1,9 +1,9 @@
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
-  name: __SERVICE_NAME__
+  name: checkout-api
 spec:
   scaleTargetRef:
-    name: __SERVICE_NAME__-prod
+    name: checkout-api-prod
   minReplicas: 1
   maxReplicas: 3
