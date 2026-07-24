@@ -16,4 +16,4 @@ patches:
   - path: quota-patch.yaml
 images:
   - name: kuberpull/checkout-api
-    newTag: dev
+    newTag: d8d875ccf629b747a975439bdd030617920d228c
